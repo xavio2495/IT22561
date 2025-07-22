@@ -48,5 +48,6 @@ public static void main(String[] args) {
         emp.Calc();
         // display its details
         emp.displayDetails();
+        x.close();
     }
 }

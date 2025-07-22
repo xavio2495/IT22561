@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Base class Ticket
+//Class Ticket with basic ticket information
 class Ticket {
     protected String ticketId;
     protected String passengerName;
@@ -53,8 +53,6 @@ class ReservationDetails extends Ticket {
         System.out.println("Travel Date: " + travelDate);
     }
 }
-
-// Subclass OneWayTicket
 class OneWayTicket extends ReservationDetails {
     private boolean validForSelectedDateOnly;
     
@@ -228,7 +226,6 @@ public class Main {
         
         boolean continueBooking = true;
         int totalBookings = 0;
-        double totalRevenue = 0.0;
         
         while (continueBooking) {
             bookTicket(scanner);
@@ -250,7 +247,6 @@ public class Main {
         System.out.println("Total bookings processed: " + totalBookings);
         System.out.println("Thank you for using our Train Ticket Booking System!");
         System.out.println("=".repeat(60));
-        
         scanner.close();
     }
 }
