@@ -3,7 +3,7 @@
 // such as addition, subtraction, multiplication, and division.
 // It takes two integers and outputs the results of these operations.
 import java.util.Scanner;
-public class BasicCalc {
+public class Main {
     public static void main(String[] args) {
         int a,b;
         Scanner x = new Scanner(System.in);
@@ -30,6 +30,7 @@ public class BasicCalc {
             System.out.println("Division by zero is not allowed.");
             
         }
+        x.close();
     }
 
 }

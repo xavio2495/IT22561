@@ -29,7 +29,7 @@ class Emp {
     }
 }
 
-public class Employee {
+public class Main{
 public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         Emp emp = new Emp();
