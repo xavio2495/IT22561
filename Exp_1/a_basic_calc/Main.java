@@ -7,7 +7,9 @@ public class Main {
     public static void main(String[] args) {
         int a,b;
         Scanner x = new Scanner(System.in);
+        System.out.print("Enter A:");
         a= x.nextInt();
+        System.out.print("Enter B:");
         b= x.nextInt();
         //Sum
         int sum = a + b;
