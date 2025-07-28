@@ -1,20 +1,24 @@
 <h1 align="center">IT22561 <br> Programming and Data Structures Laboratory</h1>
 <br>
-<h2 align="center">Program List</h2>
+<h2 align="center">CYCLE-1 [Java Programming]</h2>
 
 ### 1. Basic Programs of Java and Java Packages
 
-1. Arithmetic Operations on Two Integers
-2. Employee Salary Slip Generator
-3. Banking System Using Packages
+1. [Arithmetic Operations on Two Integers](Exp_1\a_basic_calc)
+2. [Employee Salary Slip Generator](Exp_1\b_employee)
+3. [Banking System Using Packages](Exp_1\c_bank)
 
 ### 2. Programs on Inheritance
-1. Hospital Management System
-2. Train Ticket Booking System
+1. [Hospital Management System](Exp_2\a_HMS)
+2. [Train Ticket Booking System](Exp_2\b_TTBS)
 
 ### 3. Programs on polymorphism
-1. Compile Time Polymorphism
-2. Run Time Polymorphism
+1. [Compile Time Polymorphism](Exp_3\a_CTP)
+2. [Run Time Polymorphism](Exp_3\b_RTP)
+
+### 4. Programs on abstraction
+1. [Abstract class and methods](Exp_4\a_abstract)
+2. [Interface](Exp_4\b_interface)
 
 
 <h2 align="center">Directory Structure</h2>
@@ -23,31 +27,38 @@
 IT22561
 │   .gitignore
 │   README.md
-│   
 ├───Exp_1
-│   ├───a_basic_calc --> a) Arithmetic Operations on Two Integers
+│   ├───a_basic_calc
+│   │       Algorithm.md
 │   │       Main.java
-│   │       
-│   ├───b_employee   --> b) Employee Salary Slip Generator
+│   ├───b_employee
+│   │       Algorithm.md
 │   │       Main.java
-│   │       
-│   └───c_bank       --> c) Banking System Using Packages
+│   └───c_bank
+│       │   Algorithm.md
 │       │   Main.java
-│       │   
 │       └───bank
 │               Bank.java
-│
 ├───Exp_2
-│   ├───a_HMS        --> a) Hospital Management System
+│   ├───a_HMS
+│   │       Algorithm.md
 │   │       Main.java
-│   │
-│   └───b_TTBS       --> b) Train Ticket Booking System
+│   └───b_TTBS
+│           Algorithm.md
 │           Main.java
-│
-└───Exp_3
-    ├───a_CTP        --> a) Compile Time Polymorphism
+│           Main_short.java
+├───Exp_3
+│   ├───a_CTP
+│   │       Algorithm.md
+│   │       Main.java
+│   └───b_RTP
+│           Algorithm.md
+│           Main.java
+└───Exp_4
+    ├───a_abstract
+    │       Algorithm.md
     │       Main.java
-    │
-    └───b_RTP        --> b) Run Time Polymorphism
+    └───b_interface
+            Algorithm.md
             Main.java
 ```

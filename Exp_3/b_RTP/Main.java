@@ -21,21 +21,6 @@ class Cat extends Animal {
 
 public class Main {
     public static void main(String[] args) {
-        Animal genericAnimal = new Animal();
-        System.out.print("Generic Animal: ");
-        genericAnimal.makeSound();
-
-        Dog myDog = new Dog();
-        System.out.print("My Dog: ");
-        myDog.makeSound();
-
-        Cat myCat = new Cat();
-        System.out.print("My Cat: ");
-        myCat.makeSound();
-
-        
-        System.out.println("\n--- Demonstrating Polymorphism ---");
-
         Animal polymorphicDog = new Dog();
         System.out.print("Polymorphic Dog: ");
         polymorphicDog.makeSound();
