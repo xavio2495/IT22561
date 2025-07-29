@@ -1,22 +1,26 @@
+## Algorithm
+1.  Start the program.
+2.  Initialize an `Emp` object.
+3.  Get **employee name** from the user.
+4.  Get **employee ID** from the user.
+5.  Get **employee designation** from the user.
+6.  Get **employee basic salary** from the user.
+7.  Calculate the **final salary** using the `Calc()` method.
+8.  Display **all employee details** using the `displayDetails()` method.
+9.  End the program.
 
-1.  **Start the Program:** Begin the execution of the application.
-2.  **Initialize Employee Object:** Create an instance of the `Emp` class. This object will hold all the details for a specific employee.
-3.  **Gather Employee Information:**
-    * Prompt the user to **enter the employee's name** and store it in the `name` attribute of the `Emp` object.
-    * Prompt the user to **enter the employee's ID** and store it in the `id` attribute.
-    * Prompt the user to **enter the employee's designation** and store it in the `Designation` attribute.
-    * Prompt the user to **enter the employee's basic salary** and store it in the `salary` attribute.
-4.  **Compute Final Salary:** Call the `Calc()` method on the `Emp` object. This method performs the following calculations:
-    * `finalSalary = salary + (salary * hra) + (salary * da) - (salary * pf)`
-    * (Where `hra` is 0.2, `da` is 0.1, and `pf` is 0.08 of the basic salary).
-5.  **Display Employee Details:** Invoke the `displayDetails()` method on the `Emp` object. This method will print out all the collected and calculated information:
-    * Employee Name
-    * Employee ID
-    * Designation
-    * Basic Salary
-    * House Rent Allowance (HRA) amount
-    * Dearness Allowance (DA) amount
-    * Provident Fund (PF) amount
-    * Final Calculated Salary
-6.  **End the Program:** Terminate the application's execution.
-
+## Program Output
+```
+Enter employee name: Immanuel
+Enter employee ID: 29447
+Enter employee designation: Intern
+Enter employee basic salary: 80000
+Employee Name: Immanuel
+Employee ID: 29447 
+Designation: Intern
+Basic Salary: 80000
+HRA: 16000.0
+DA: 8000.0
+PF: 6400.0
+Final Salary: 97600.0
+```
