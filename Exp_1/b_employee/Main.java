@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Emp {
     // Employee class to represent an employee with basic attributes
     String name;
@@ -18,6 +17,7 @@ class Emp {
 
     // Method to display employee details
     public void displayDetails() {
+        System.out.println("\n------------------- Employee Details ------------------");
         System.out.println("Employee Name: " + name);
         System.out.println("Employee ID: " + id);
         System.out.println("Designation: " + Designation);
@@ -25,7 +25,9 @@ class Emp {
         System.out.println("HRA: " + (salary * hra));
         System.out.println("DA: " + (salary * da));
         System.out.println("PF: " + (salary * pf));
-        System.out.println("Final Salary: " + finalSalary);
+        System.out.println("Gross Salary: " + (finalSalary + (salary * pf)));
+        System.out.println("Net Salary: " + finalSalary);
+
     }
 }
 

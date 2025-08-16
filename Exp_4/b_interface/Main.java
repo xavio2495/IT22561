@@ -1,28 +1,33 @@
-interface Shape {
-    void draw();
-}
+interface Shape {void draw();}
+
 class Circle implements Shape {
     private double radius;
+
     public Circle(double radius) {
         this.radius = radius;
     }
+
     @Override
     public void draw() {
         System.out.println("Drawing a Circle with radius: " + radius);
     }
 }
+
 class Rectangle implements Shape {
     private double length;
     private double width;
+
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
     }
+
     @Override
     public void draw() {
         System.out.println("Drawing a Rectangle with length: " + length + " and width: " + width);
     }
 }
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Demonstrating Interface Implementation (Shape, Circle, Rectangle):\n");

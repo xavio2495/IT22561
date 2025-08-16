@@ -15,12 +15,15 @@ Enter employee name: Immanuel
 Enter employee ID: 29447
 Enter employee designation: Intern
 Enter employee basic salary: 80000
+
+------------------- Employee Details ------------------
 Employee Name: Immanuel
-Employee ID: 29447 
+Employee ID: 29447
 Designation: Intern
 Basic Salary: 80000
 HRA: 16000.0
 DA: 8000.0
 PF: 6400.0
-Final Salary: 97600.0
+Gross Salary: 97600.0
+Net Salary: 91200.0
 ```
