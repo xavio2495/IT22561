@@ -46,18 +46,18 @@ class ReservationDetails extends Ticket {
 }
 
 class OneWayTicket extends ReservationDetails {
-    private boolean isValidForSelectedDateOnly;
+    private boolean DateVailidity;
 
     public OneWayTicket(String ticketId, String passengerName, String origin, String destination,
                         double fare, String seatNumber, String coachType, Date travelDate,
                         boolean isValidForSelectedDateOnly) {
         super(ticketId, passengerName, origin, destination, fare, seatNumber, coachType, travelDate);
-        this.isValidForSelectedDateOnly = isValidForSelectedDateOnly;
+        this.DateVailidity = isValidForSelectedDateOnly;
     }
 
     public void displayOneWayTicketInfo() {
         displayReservationDetails();
-        System.out.println("Valid Only for Selected Date: " + (isValidForSelectedDateOnly ? "Yes" : "No"));
+        System.out.println("Valid Only for Selected Date: " + (DateVailidity ? "Yes" : "No"));
     }
 }
 

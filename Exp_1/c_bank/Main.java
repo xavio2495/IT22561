@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Bank bankAcc = new Bank();
-        System.out.println("\tWelcome to the IT Bank\n");
+        System.out.print("\tWelcome to the IT Bank");
 
         while (true) {
-            System.out.print("Please select from an option below : \n");
             System.out.print("""
+                    \n
                     1. Create Account
                     2. Display Account
                     3. Withdraw Money
@@ -20,6 +20,7 @@ public class Main {
                     7. Close Account
                     8. Exit
                     """);
+            System.out.print("Please select from the above options: ");
             int choice = scanner.nextInt();
             switch (choice) {
                 case 1 -> bankAcc.createAccount();

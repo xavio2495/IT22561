@@ -1,19 +1,31 @@
+
 import java.util.Scanner;
+
 abstract class Employee {
+
     protected String name;
     protected String employeeId;
+
     public abstract void calculateSalary();
+
     public abstract void getDetails();
 }
 
 class FullTimeEmployee extends Employee {
+
     private double monthlySalary;
     private double bonus;
 
     @Override
     public void calculateSalary() {
+        int hra = (int) (0.1 * monthlySalary);
+        int da = (int) (0.05 * monthlySalary);
+        int ta = (int) (0.02 * monthlySalary);
         System.out.println("--------------------------------------------");
-        System.out.print("Total Salary/Year: $" + ((monthlySalary + bonus) * 12));
+        System.out.println("House Rent Allowance  : $" + hra);
+        System.out.println("Dearness Allowance    : $" + da);
+        System.out.println("Travel Allowance      : $" + ta);
+        System.out.print("Total Salary/Month    : $" + (monthlySalary + bonus + hra + da + ta));
     }
 
     @Override
@@ -33,13 +45,18 @@ class FullTimeEmployee extends Employee {
 }
 
 class PartTimeEmployee extends Employee {
+
     private double hourlyRate;
     private int hoursWorked;
 
     @Override
     public void calculateSalary() {
+        int bonus = (int) (0.05 * (hourlyRate * hoursWorked));
+        int ta = (int) (0.02 * (hourlyRate * hoursWorked));
         System.out.println("--------------------------------------------");
-        System.out.print("Total Salary/Day: $" + (hourlyRate * hoursWorked));
+        System.out.println("Bonus                 : $" + bonus);
+        System.out.println("Travel Allowance      : $" + ta);
+        System.out.println("Total Salary/Day      : $" + ((hourlyRate * hoursWorked)+ bonus + ta));
     }
 
     @Override
@@ -59,6 +76,7 @@ class PartTimeEmployee extends Employee {
 }
 
 public class Main {
+
     public static void main(String[] args) {
         System.out.println("Demonstrating Abstract Class and Inheritance:\n");
         Employee ftEmployee = new FullTimeEmployee();

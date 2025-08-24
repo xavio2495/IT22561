@@ -1,11 +1,13 @@
+
 class Animal {
+
     public void makeSound() {
         System.out.println("The animal makes a sound.");
     }
 }
 
-
 class Dog extends Animal {
+
     @Override
     public void makeSound() {
         System.out.println("The dog: Woof! Woof!");
@@ -13,6 +15,7 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
+
     @Override
     public void makeSound() {
         System.out.println("The cat: Meow! Meow!");
@@ -20,6 +23,7 @@ class Cat extends Animal {
 }
 
 public class Main {
+
     public static void main(String[] args) {
         Animal polymorphicDog = new Dog();
         System.out.print("Polymorphic Dog: ");
@@ -28,5 +32,5 @@ public class Main {
         Animal polymorphicCat = new Cat();
         System.out.print("Polymorphic Cat: ");
         polymorphicCat.makeSound();
-        }
     }
+}
