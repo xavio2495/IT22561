@@ -67,6 +67,7 @@ class ListFunc {
         while (temp != null) {
             if (temp.data == key) {
                 System.out.println("Value: " + key + "\nPosition: " + pos);
+                return;
             }
             temp = temp.next;
             pos++;
@@ -109,7 +110,7 @@ public class Main {
             int choice = sc.nextInt();
             switch (choice) {
                 case 1 -> {
-                    System.out.println("Create new list operation selected.");
+                    System.out.println("Creating new list.");
                     list.create();
                 }
                 case 2 -> {
@@ -118,7 +119,7 @@ public class Main {
                     list.insert(val);
                 }
                 case 3 -> {
-                    System.out.println("Delete last node operation selected.");
+                    System.out.println("Deleting last node.");
                     list.deleteLast();
                 }
                 case 4 -> {

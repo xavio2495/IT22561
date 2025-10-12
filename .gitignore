@@ -26,3 +26,5 @@ replay_pid*
 # Remove-Item -Path "D:\0-Codes\Java\IT22561\*.class" -WhatIf
 # Remove-Item -Path "D:\0-Codes\Java\IT22561\*.class"
 
+# Get-ChildItem -Path . -Recurse -Filter *.class
+# Get-ChildItem -Path . -Recurse -Filter *.class | Remove-Item -Force

@@ -3,7 +3,6 @@
 <h2 align="center">CYCLE-1 [Java Programming]</h2>
 
 ### 1. Basic Programs of Java and Java Packages
-
 1. [Arithmetic Operations on Two Integers](Exp_1/a_basic_calc)
 2. [Employee Salary Slip Generator](Exp_1/b_employee)
 3. [Banking System Using Packages](Exp_1/c_bank)
@@ -12,14 +11,42 @@
 1. [Hospital Management System](Exp_2/a_HMS)
 2. [Train Ticket Booking System](Exp_2/b_TTBS)
 
-### 3. Programs on polymorphism
+### 3. Programs on Polymorphism
 1. [Compile Time Polymorphism](Exp_3/a_CTP)
 2. [Run Time Polymorphism](Exp_3/b_RTP)
 
-### 4. Programs on abstraction
+### 4. Programs on Abstraction
 1. [Abstract class and methods](Exp_4/a_abstract)
 2. [Interface](Exp_4/b_interface)
 
+<br>
+<h2 align="center">CYCLE-2 [Data Structures Programs]</h2>
+
+### 5. [Singly Linked List Operations](Exp_5)
+
+### 6. Stack Operations
+1. [Stack operations using Array](Exp_6/a_array)
+2. [Stack operations using Linked List](Exp_6/b_linked_list)
+
+### 7. Stack Applications
+1. [Infix to Postfix conversion](Exp_7/a_ITPC)
+2. [Expression Evaluation](Exp_7/b_expression)
+
+### 8. [Queue Operations](Exp_8)
+
+### 9. [Circular Queue Operations](Exp_9)
+
+### 10. [Binary Search Tree Operations](Exp_10)
+
+### 11. [Dijkstra’s Algorithm for Single Source Shortest Path](Exp_11)
+
+### 12. Linear & Binary Search
+1. [Linear Search](Exp_12/a_linear)
+2. [Binary Search](Exp_12/b_binary)
+
+### 13. [Quick Sort](Exp_13)
+
+### 14. [Merge Sort](Exp_14)
 
 <h2 align="center">Directory Structure</h2>
 
