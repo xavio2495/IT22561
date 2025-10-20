@@ -6,7 +6,6 @@ class Node {
 
     public Node(int data) {
         this.data = data;
-        next = null;
     }
 }
 
@@ -31,12 +30,10 @@ public class Main_short {
             head = curr.next;
             return true;
         }
-
         while (curr != null && curr.data != key) {
             prev = curr;
             curr = curr.next;
         }
-
         if (curr == null) {
             return false;
         }

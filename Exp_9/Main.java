@@ -5,8 +5,10 @@ public class Main {
         cap = s;
         arr = new int[s];
     }
+    
     boolean isEmpty() { return c == 0; }
     boolean isFull() { return c == cap; }
+
     public void Disp() {
         if (isEmpty()) {
             System.out.println("[] (Empty)");
@@ -19,6 +21,7 @@ public class Main {
         }
         System.out.println("]");
     }
+
     public void EnQ(int i) {
         if (isFull()) {
             System.out.println("Queue is Full");
