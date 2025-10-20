@@ -54,38 +54,105 @@
 IT22561
 │   .gitignore
 │   README.md
+│
 ├───Exp_1
 │   ├───a_basic_calc
-│   │       Algorithm.md
-│   │       Main.java
+│   │       Algorithm.md     
+│   │       Main.java        
+│   │
 │   ├───b_employee
-│   │       Algorithm.md
-│   │       Main.java
+│   │       Algorithm.md     
+│   │       Main.java        
+│   │
 │   └───c_bank
-│       │   Algorithm.md
-│       │   Main.java
+│       │   Algorithm.md     
+│       │   Main.java        
+│       │
 │       └───bank
-│               Bank.java
+│               Bank.java    
+│
 ├───Exp_2
 │   ├───a_HMS
-│   │       Algorithm.md
-│   │       Main.java
+│   │       Algorithm.md     
+│   │       Main.java        
+│   │
 │   └───b_TTBS
-│           Algorithm.md
-│           Main.java
-│           Main_short.java
+│           Algorithm.md     
+│           Main.java        
+│           Main_short.java  
+│
 ├───Exp_3
 │   ├───a_CTP
-│   │       Algorithm.md
-│   │       Main.java
+│   │       Algorithm.md     
+│   │       Main.java        
+│   │
 │   └───b_RTP
 │           Algorithm.md
+│           Main.java   
+│
+├───Exp_4
+│   ├───a_abstract
+│   │       Algorithm.md
+│   │       Main.java
+│   │
+│   └───b_interface
+│           Algorithm.md
 │           Main.java
-└───Exp_4
-    ├───a_abstract
-    │       Algorithm.md
-    │       Main.java
-    └───b_interface
-            Algorithm.md
-            Main.java
+│
+├───Exp_5
+│       Algorithm.md
+│       Main.java
+│       Main_short.java
+│
+├───Exp_6
+│   ├───a_array
+│   │       Algorithm.md
+│   │       Main.java
+│   │
+│   └───b_linked_list
+│           Algorithm.md
+│           Main.java
+│
+├───Exp_7
+│   ├───a_ITPC
+│   │       Algorithm.md
+│   │       Main.java
+│   │
+│   └───b_expression
+│           Algorithm.md
+│           Main.java
+│
+├───Exp_8
+│       Algorithm.md
+│       Main.java
+│
+├───Exp_9
+│       Algorithm.md
+│       Main.java
+│
+├───Exp_n10
+│       Algorithm.md
+│       Main.java
+│
+├───Exp_n11
+│       Algorithm.md
+│       Main.java
+│       Main_short.java
+│
+├───Exp_n12
+│   ├───a_linear
+│   │       Algorithm.md
+│   │       Main.java
+│   │
+│   └───b_binary
+│           Algorithm.md
+│           Main.java
+│
+├───Exp_n13
+│       Algorithm.md
+│       Main.java
+│
+└───Exp_n14
+        Algorithm.md
+        Main.java
 ```
