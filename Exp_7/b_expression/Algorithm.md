@@ -1,5 +1,4 @@
 ## Algorithm
-
 1.	Initialize an empty stack
 2.	Scan the postfix expression from left to right.
 3.	If the character is an operand,then push it onto the stack
@@ -9,3 +8,9 @@
     - Push the result back onto the stack
 5.	After scanning all characters, the final result is stored on top of the stack
 6.	Print the result
+
+## Program Output
+```
+Postfix Expression: 352*+9-
+Evaluation Result: 4
+```

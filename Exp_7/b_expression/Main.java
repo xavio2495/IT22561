@@ -6,14 +6,9 @@ public class Main {
             char ch = expression.charAt(i);
             if (Character.isDigit(ch)) {
                 stack.push(ch - '0');
-                System.out.print(ch);
-                System.out.println();
             } else {
                 int val2 = stack.pop();
-                System.out.println("JJJ)");
-                System.out.println(val2);
                 int val1 = stack.pop();
-                System.out.println(val1);
                 switch (ch) {
                     case '+' -> stack.push(val1 + val2);
                     case '-' -> stack.push(val1 - val2);

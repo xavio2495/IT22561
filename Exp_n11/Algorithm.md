@@ -11,3 +11,13 @@
 5. If a shorter path is found, update `dist[v]` to this new shorter distance and add vertex `v` to the priority queue for future processing.
 
 6. The `main` method defines the graph matrix and calls the algorithm to find and print the shortest paths from a starting source vertex.
+
+## Program Output
+```
+Shortest distances from vertex 0:
+To vertex 0 : 0
+To vertex 1 : 8
+To vertex 2 : 9
+To vertex 3 : 7
+To vertex 4 : 5
+```

@@ -6,3 +6,15 @@
 5.  Reset `f=-1, r=-1` if the queue becomes empty.
 6.  Implement `Disp()`: Loop `c` times, using `(f+i) % cap` for circular printing.
 7.  Execute Main: Test the queue with a sequence of enqueue and dequeue operations.
+
+## Program Output
+```
+Enqueued: [10]    
+Enqueued: [10, 20]
+Dequeued: 10 : [20]    
+Enqueued: [20, 30]     
+Enqueued: [20, 30, 40] 
+Queue is Full
+Dequeued: 20 : [30, 40]
+Enqueued: [30, 40, 50] 
+```

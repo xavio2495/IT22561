@@ -1,5 +1,4 @@
 ## Algorithm
-
 1.  Define a **`Node`** with **`data`** and a **`next`** pointer.
 2.  Initialize the Stack's `top` pointer to `null`.
 3.  Implement **`isEmpty()`** by checking if `top` is `null`.
@@ -9,3 +8,16 @@
 7.  Implement **`display()`** by traversing the list from `top` and printing each node's data.
 8.  Instantiate the Stack object.
 9. Demonstrate operations with calls to  **`push`**, **`display`**, **`peek`**, and **`pop`**.
+
+## Program Output
+```
+Pushed 10
+Pushed 20
+Pushed 30
+Stack elements are:
+30 20 10
+Top element is 30  
+Popped 30
+Stack elements are:
+20 10
+```

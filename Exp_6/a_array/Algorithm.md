@@ -7,3 +7,19 @@
 6.	Implement the `display()` operation to iterate and print elements.
 7.	Instantiate the Stack object with a specified capacity in the main method.
 8.	Perform Stack operations using the Stack object.
+
+## Program Output
+```
+10 pushed to stack.
+20 pushed to stack.
+30 pushed to stack.
+Stack elements: 10 20 30
+30 popped from stack.
+Stack elements: 10 20
+Top element: 20
+40 pushed to stack.
+50 pushed to stack.
+60 pushed to stack.
+Stack Overflow: Cannot push, stack is full.
+Stack elements: 10 20 40 50 60
+```

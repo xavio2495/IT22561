@@ -1,3 +1,4 @@
+## Algorithm
 1.  Define a `Calculator` class.
 2.  Implement an `int calculate(int a, int b)` method in `Calculator` that returns the sum of `a` and `b`.
 3.  Implement a `double calculate(double a, double b)` method in `Calculator` that returns the sum of `a` and `b`.
@@ -13,3 +14,17 @@
 13. Prompt the user to enter two strings.
 14. Read the two strings (`str1`, `str2`) from the user.
 15. Call `calculator.calculate(str1, str2)` and print the "String result".
+
+## Program Output
+```
+Enter two integers or doubles, or strings to perform addition:
+Enter X: 19
+Enter Y: 74
+Integer result: 93
+Enter first double: 23.11
+Enter second double: 33.99 
+Double result: 57.1 
+Enter first string: Imma 
+Enter second string: nuel
+String result: Immanuel
+```

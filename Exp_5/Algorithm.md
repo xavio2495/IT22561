@@ -19,3 +19,100 @@
    * Traverse from head, comparing each node’s value.
    * Print position if found, else print "not found".
 10. **If Exit**: Stop program, otherwise go back to Step 2.
+
+## Program Output
+```
+        Singly Linked List Operations
+Menu:
+1. Create new list
+2. Insert value into list
+3. Delete last value from list       
+4. Delete list
+5. Display list
+6. Search for a value
+7. Exit
+Choose an option: 1
+Creating new list.
+
+Enter the number of nodes: 5
+Enter value for node 1: 3
+List: 3 -> NULL
+Enter value for node 2: 9
+List: 3 -> 9 -> NULL
+Enter value for node 3: 11
+List: 3 -> 9 -> 11 -> NULL
+Enter value for node 4: 5
+List: 3 -> 9 -> 11 -> 5 -> NULL
+Enter value for node 5: 8
+List: 3 -> 9 -> 11 -> 5 -> 8 -> NULL
+        Singly Linked List Operations
+Menu:
+1. Create new list
+2. Insert value into list
+3. Delete last value from list
+4. Delete list
+5. Display list
+6. Search for a value
+7. Exit
+Choose an option: 2
+Enter value to insert: 14
+List: 3 -> 9 -> 11 -> 5 -> 8 -> 14 -> NULL
+        Singly Linked List Operations
+Menu:
+1. Create new list
+2. Insert value into list
+3. Delete last value from list
+4. Delete list
+5. Display list
+6. Search for a value
+7. Exit
+Choose an option: 3
+Deleting last node.
+List: 3 -> 9 -> 11 -> 5 -> 8 -> NULL
+        Singly Linked List Operations
+Menu:
+1. Create new list
+2. Insert value into list
+3. Delete last value from list
+4. Delete list
+5. Display list
+6. Search for a value
+7. Exit
+Choose an option: 5
+List: 3 -> 9 -> 11 -> 5 -> 8 -> NULL
+        Singly Linked List Operations
+Menu:
+1. Create new list
+2. Insert value into list
+3. Delete last value from list
+4. Delete list
+5. Display list
+6. Search for a value
+7. Exit
+Choose an option: 6
+Enter value to search: 8
+Value: 8
+Position: 5
+        Singly Linked List Operations
+Menu:
+1. Create new list
+2. Insert value into list
+3. Delete last value from list
+4. Delete list
+5. Display list
+6. Search for a value
+7. Exit
+Choose an option: 4
+List deleted.
+        Singly Linked List Operations
+Menu:
+1. Create new list
+2. Insert value into list
+3. Delete last value from list
+4. Delete list
+5. Display list
+6. Search for a value
+7. Exit
+Choose an option: 7
+Exiting...
+```

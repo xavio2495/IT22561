@@ -9,3 +9,11 @@
 6.  Continue this process until the entire postfix expression has been scanned.
 7.  The final result will be the single element remaining on the top of the stack.
 8.  Print the result.
+
+## Program Output
+```
+Infix to Postfix Conversion
+
+Infix Expression:  a+b*(c^d-e)^(f+g*h)-i
+Postfix Expression: abcd^e-fgh*+^*+i- 
+```
