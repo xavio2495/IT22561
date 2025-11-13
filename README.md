@@ -36,17 +36,17 @@
 
 ### 9. [Circular Queue Operations](Exp_9)
 
-### 10. [Binary Search Tree Operations](Exp_10)
+### 10. [Binary Search Tree Operations](Exp_n10)
 
-### 11. [Dijkstra’s Algorithm for Single Source Shortest Path](Exp_11)
+### 11. [Dijkstra’s Algorithm for Single Source Shortest Path](Exp_n11)
 
 ### 12. Linear & Binary Search
-1. [Linear Search](Exp_12/a_linear)
-2. [Binary Search](Exp_12/b_binary)
+1. [Linear Search](Exp_n12/a_linear)
+2. [Binary Search](Exp_n12/b_binary)
 
-### 13. [Quick Sort](Exp_13)
+### 13. [Quick Sort](Exp_n13)
 
-### 14. [Merge Sort](Exp_14)
+### 14. [Merge Sort](Exp_n14)
 
 <h2 align="center">Directory Structure</h2>
 
